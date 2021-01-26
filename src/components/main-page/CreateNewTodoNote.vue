@@ -109,10 +109,6 @@ export default {
       this.todoItemTitle = '';
     },
 
-    checkInputs() {
-
-    },
-
     cancelTodoNoteWindowCreating() {
       this.cancelCreatingNewTodo();
       this.todoNoteTitle = '';

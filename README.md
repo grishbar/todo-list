@@ -1,24 +1,22 @@
-# todo-list
+# Simple bank card form
 
-## Project setup
-```
-npm install
-```
+небольшое SPA приложение для TODO заметок [здесь]()
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## TODO/недоработки
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. страница редактирования заметки совсем без стилей
+2. на странице редактирования заметки активны для изменения сразу все поля, надо, чтобы активировались по клику
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Available Scripts
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+In the project directory, you can run:
+
+### `node app.js`
+
+Runs the express node.js server for app
+
+### `cd client && npm run serve`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
+The page will reload if you make edits.
